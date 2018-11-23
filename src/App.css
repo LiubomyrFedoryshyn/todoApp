@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+.App {
+ text-align: center;
+}
+
+.App img {
+    width: 25%;
+    margin-bottom: 2%;
+}
+
+.App h1 {
+    font-family: 'Indie Flower', cursive;
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.App .Todo span {
+    cursor: pointer;
+    font-size: 23px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.App .Todo span:hover {
+    color: darkred;
+}
+
+.App p {
+    font-size: 23px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.App p:hover {
+    color: rgb(46, 37, 105);
+}
+
+.App .Form input[type=text]{
+    width: 25%;;
+    color: darkred;
+    outline: none;
+    margin-top: 1%;
+    border: none;
+    border-bottom: 1.5px solid darkgray;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Indie Flower', cursive;
+}
